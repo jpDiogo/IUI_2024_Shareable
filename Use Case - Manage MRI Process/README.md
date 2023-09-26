@@ -1,87 +1,46 @@
-# Case Studies
+# Use Case: Manage MRI Process in a Hospital
 
----
-
-`Goal:` Gathering scientific data from papers to backup the use cases used for our IUI paper.
-
----
-
-## Case Study: Healthcare: 
-
-`Summary:` AI integration in MRI processing
-
-`Top paper:` Explainable AI: Classification of MRI Brain Scans Orders for Quality Improvement
-
-> "The use of deep learning with explainable LIME in this study provided a good use case towards an augmented decision-making framework in healthcare."
-
-`Papers:`
-
-1. `Title`: Explainable AI for CNN-based prostate tumor segmentation in multi-parametric MRI correlated to whole mount histopathology
-    1. [Reference](https://www.semanticscholar.org/paper/Explainable-AI-for-CNN-based-prostate-tumor-in-MRI-Gunashekar-Bielak/241690194d4306e2059f0255666a33560b14e713)
-    2. `Citations`: 12
-2. `Title`: Explainable AI: Classification of MRI Brain Scans Orders for Quality Improvement
-    1. [Reference](https://dl.acm.org/doi/10.1145/3365109.3368791)
-    2. `Citations`: 3
-3. `Title`: Explainable AI for Medical Image Processing: A Study on MRI in Alzheimer’s Disease
-    1. [Reference](https://dl.acm.org/doi/10.1145/3594806.3596521)
-    2. `Citations:`0
+`Actors`:
+- <ins>Doctor</ins>: A medical professional who prescribes MRI scans for patients.
+- <ins>Patient</ins>: An individual undergoing an MRI scan.
+- <ins>Assistant</ins>: Manage the appointments and schedules for MRI exams.
+- <ins>Radiology Technician</ins>: The healthcare professional responsible for operating the MRI machines.
 
 </br>
 
-## Case Study: Education: 
-
-`Summary:` AI integration in Education for content generation
-
-`Top paper:` AI-Powered MOOCs: Video Lecture Generation
-
-> "The idea of this paper is to use text-to-speech and speech-driven-face to automatically create a video lecture with the instructor's voice and face without recording the video"
-
-`Papers:`
-
-1. `Title`: Artificial Intelligence-Generated and Human Expert-Designed Vocabulary Tests: A Comparative Study
-    1. [Reference](https://journals.sagepub.com/doi/10.1177/21582440221082130)
-    2. `Citations`: ??
-2. `Title`: AI-Powered MOOCs: Video Lecture Generation
-    1. [Reference](https://dl.acm.org/doi/10.1145/3459212.3459227)
-    2. `Citations`: 13
-3. `Title`: Opportunities and Challenges in Using AI Chatbots in Higher Education
-    1. [Reference](https://dl.acm.org/doi/10.1145/3371647.3371659)
-    2. `Citations`: 31
-4. `Title`: The impact of a virtual teaching assistant (chatbot) on students' learning in Ghanaian higher education
-    1. [Reference](https://www.semanticscholar.org/paper/The-impact-of-a-virtual-teaching-assistant-on-in-Essel-Vlachopoulos/822964fa693ed2ee57515cdf4bc1c4c634ed412d)
-    2. `Citations`: 22
+`Process Description`:
+1. Prescribing an MRI Scan:
+    1. The doctor initiates a request to prescribe an MRI scan for a patient.
+    2. The system validates the request, including patient details and medical justifications.
+    3. If valid, the system records the MRI prescription.
+2. Scheduling an MRI Appointment:
+    1. Hospital staff uses the system to check MRI availability, schedule appointments, and notify patients.
+3. Performing an MRI Scan:
+    1. Radiology Technician logs into the system to view scheduled MRI appointments.
+    2. The technician performs the MRI scan and records relevant details, such as scan duration, machine used, and any issues encountered.
+4. Accessing MRI Results:
+    1.  the results are processed and stored in the system after the MRI scan.
+    2. The doctor reviews the MRI results and adds comments or recommendations.
+    3. The patient is notified of the availability of their MRI results through the system.
 
 </br>
 
-## Case Study: Music Streaming: 
+`Identified opportunities`:
 
-
-`Summary:` AI integration in music recommendation
-
-`Top paper:` Music Recommendation Systems: Techniques, Use Cases, and Challenges
-
-> "The role of the recommender system is to support the user in this specific scenario, e.g. by suggesting complementary items, without interfering, distracting, or persuading the user."
-
-`Papers:`
-
-1. `Title`: Music recommendations in hyperbolic space: an application of empirical bayes and hierarchical poincaré embeddings
-    1. [Reference](https://dl.acm.org/doi/pdf/10.1145/3298689.3347029)
-    2. `Citations`: 4
-2. `Title`: Music Recommendation via Hypergraph Embedding.
-    1. [Reference](https://www.semanticscholar.org/paper/Music-Recommendation-via-Hypergraph-Embedding.-Gatta-Moscato/eb05d45d3fc4225fe582eb841b0078b1d36b6a53)
-    2. `Citations`: 15
-3. `Title`: Music Recommendation Systems: Techniques, Use Cases, and Challenges
-    1. [Reference](https://link.springer.com/chapter/10.1007/978-1-0716-2197-4_24)
-    2. `Citations`: 13
+The integration of AI into medical justification validation (*1.2*), radiology image analysis (*4.1*), and result reporting (*4.2*) in MRI processes is driven by the pursuit of enhanced healthcare. 
 
 </br>
 
-## Case Study: Finantial System: 
+`Selected use case`:
 
-`Summary:` 
+Automated Detection of Anomalies: Machine learning models, particularly convolutional neural networks (CNNs), can be trained to detect specific anomalies or structures within MRI images. For example, they can identify tumors, lesions, or other abnormalities.
+
+`System’s First version`:
+
+Doctors initiate image analysis within the MRI process management system by activating MRI scans with the integrated AI module. Users are kept informed of the processing status as the AI analysis progresses. Upon completion, the system displays MRI images with highlighted tumors or abnormalities. Doctors meticulously review AI findings, zooming in, and adding comments or annotations.
 
 </br>
 
+`System’s Final version`:
 
-
-
+In the final version of the MRI process management system, doctors initiate image analysis by activating MRI scans within the integrated AI module. As the AI analysis progresses, users are kept informed of the processing status and benefit from real-time insights into tumor or abnormality detection. The system offers a dynamic display of MRI images with precisely highlighted tumors, lesions, or other anomalies, utilizing color-coded overlays and outlining regions of interest. Using AI-generated reports, delve deeper into the findings, accessing automated measurements, 3D reconstructions, and predictive analytics to gauge lesion growth. The user interface empowers doctors to interact with highlighted regions, zooming in for microscopic scrutiny or comparing findings across multiple MRI scans. The system's integration of these features enhances diagnostic precision and efficiency and contributes significantly to personalized medicine and data-driven patient care.
