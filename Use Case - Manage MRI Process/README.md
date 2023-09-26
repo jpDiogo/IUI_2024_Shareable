@@ -1,6 +1,6 @@
 # Use Case: Manage MRI Process in a Hospital
 
-<p text=center>
+<p align=center>
 <img src="https://github.com/jpDiogo/IUI_2024_Shareable/assets/62766163/d0534d56-d8a7-4e9f-89ff-12f876339d94" width=50% height=50%>
 </p>
 
