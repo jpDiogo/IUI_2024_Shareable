@@ -78,7 +78,25 @@
 
 ## Case Study: Finantial System: 
 
-`Summary:` 
+`Summary:` AI integration in e-commerce using chatbots
+
+`Top paper:` Development of An e-commerce Sales Chatbot
+
+> "Users have become more relied on e-commerce than ever before in the recent years, and outlets such as Amazon is taking down giants like Walmart with absolute ease"
+
+`Papers:`
+
+1. `Title`: Development of an E-Commerce Chatbot for a University Shopping Mall
+    1. [Reference](https://www.semanticscholar.org/paper/Development-of-an-E-Commerce-Chatbot-for-a-Shopping-Oguntosin-Olomo/ce3c2b445360e9b25efbcd6b95ecb8af015a3597)
+    2. `Citations`: 10
+2. `Title`: Development of An e-commerce Sales Chatbot
+    1. [Reference](https://ieeexplore.ieee.org/abstract/document/9322667)
+    2. `Citations`: ?
+3. `Title`: Exploring consumers' response to text-based chatbots in e-commerce: the moderating role of task complexity and chatbot disclosure
+    1. [Reference](https://www.semanticscholar.org/paper/Exploring-consumers'-response-to-text-based-in-the-Cheng-Bao/6278037a37374887c353e6b44afa6952ee340876)
+    2. `Citations`: 46
+
+</br>
 
 </br>
 
