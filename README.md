@@ -76,7 +76,7 @@
 
 </br>
 
-## Case Study: Finantial System: 
+## Case Study: e-commerce System: 
 
 `Summary:` AI integration in e-commerce using chatbots
 
